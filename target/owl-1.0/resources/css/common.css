@@ -1,0 +1,17 @@
+body, html {
+    
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("/resources/img/edu1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

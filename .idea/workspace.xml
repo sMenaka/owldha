@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="owl:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbb8a5df-bc5e-47d0-a8e0-ebef2eadef03" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/owl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/controller/DbManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/controller/hibernate/SessionBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/gplus/IdTokenVerifierAndParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/interfaces/Handleable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/model/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/model/DoExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/model/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/model/Pdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/model/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/model/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/model/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/owl/model/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/CONTACT.CSS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/gride-home-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/gride-home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/quiz.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/subgrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/subgridhome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/team.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/ART_BUTTON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/BIO _BUTTON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/BST_BUTTON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/COMMERCE_BUTTON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/ET_BUTTON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/LOGO4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/PHYSCS_BUTTON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/edu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/egt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/p5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/p6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/errorLog.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/quiz.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/signUp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/subject.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/team.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/topic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/userHome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/controller/DbManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/controller/hibernate/SessionBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/gplus/IdTokenVerifierAndParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/interfaces/Handleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/model/Answer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/model/DoExam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/model/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/model/Note.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/model/Pdf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/model/Quiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/model/Subject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/model/Topic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/edu/owl/model/Video.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/controller/DbManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/controller/hibernate/SessionBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/gplus/IdTokenVerifierAndParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/gplus/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/interfaces/Handleable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/model/Answer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/model/DoExam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/model/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/model/Note.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/model/Pdf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/model/Quiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/model/Subject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/model/Topic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/model/Video.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/edu/owl/modle/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/commons-codec-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/google-api-client-1.22.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/google-api-services-oauth2-v2-rev120-1.22.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/google-http-client-1.22.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/google-http-client-jackson-1.22.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/google-http-client-jackson2-1.22.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/google-oauth-client-1.22.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/gson-2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/guava-jdk5-17.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/hibernate-core-4.3.6.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/httpclient-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/httpcore-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/jackson-core-2.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/jackson-core-asl-1.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/jandex-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/javassist-3.18.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/jsr305-1.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/mysql-connector-java-5.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/spring-aop-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/spring-context-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/spring-core-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/spring-expression-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/spring-web-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/spring-webmvc-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/lib/xml-apis-1.0.b2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/WEB-INF/weblogic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/css/CONTACT.CSS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/css/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/css/gride-home-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/css/gride-home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/css/quiz.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/css/subgrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/css/subgridhome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/css/team.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/ART_BUTTON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/BIO _BUTTON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/BST_BUTTON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/COMMERCE_BUTTON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/ET_BUTTON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/LOGO4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/PHYSCS_BUTTON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/edu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/egt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/p5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/p6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/resources/img/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/views/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/views/errorLog.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/views/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/views/quiz.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/views/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/views/signUp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/views/subject.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/views/team.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/views/topic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/owl-1.0/views/userHome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wol.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/wol$tomcat.ic" NAME="tomcat Coverage Results" MODIFIED="1538664170914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1620340847">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="943968997">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.47" value="2" />
+          <entry key="project.open.time.49" value="3" />
+          <entry key="project.open.time.52" value="3" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.58" value="2" />
+          <entry key="project.open.time.61" value="2" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.65" value="1" />
+          <entry key="project.opened" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="136" />
+          <entry key="dummy" value="14" />
+          <entry key="java" value="6311" />
+          <entry key="jsp" value="1431" />
+          <entry key="xml" value="665" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="136" />
+          <entry key="JAVA" value="6312" />
+          <entry key="JSP" value="1431" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="XML" value="664" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="css" value="30" />
+          <entry key="html" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="44" />
+          <entry key="jsp" value="29" />
+          <entry key="png" value="1" />
+          <entry key="xml" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="32" />
+          <entry key="HTML" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="44" />
+          <entry key="JSP" value="29" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/topic.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/subject.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="119" selection-start-line="42" selection-start-column="119" selection-end-line="42" selection-end-column="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/signUp.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2652">
+              <caret line="168" column="28" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#7055#7056#0" expanded="true" />
+                <element signature="e#7080#7081#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/controller/hibernate/SessionBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/quiz.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>input</find>
+      <find>item</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/wol/modle/User.java" />
+        <option value="$PROJECT_DIR$/WEB-INF/views/create.jsp" />
+        <option value="$PROJECT_DIR$/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/wol/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/wol/controller/Insert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/interfaces/AddItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/controller/hibernate/DbManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/controller/Insert.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/module/User.java" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/controller/hibernate/SessionBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/index.jap.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/singUp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/gride-home-index.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/team.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/model/quize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/controller/QuizController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/model/answer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/model/doexam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/model/exam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/model/note.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/model/pdf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/model/quiz.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/signUp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/result.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/quiz.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/gride-home.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/profile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/errorLog.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/userHome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/common.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/login.css" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/model/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/subgridhome.css" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/model/Topic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/interfaces/Handleable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/controller/DbManager.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/topic.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/owl/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/subject.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/login.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="owl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="owl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="owl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework:spring-webmvc:4.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="42" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wol" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://H:/owlda.com/wol/src/main/java/edu/owl/controller/MainController.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538702519007" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.75258917" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\owlda.com\wol\src\main\webapp\resources\css" />
+      <recent name="H:\owlda.com\wol\src\main\webapp\resources\img" />
+      <recent name="H:\owlda.com\wol\src\main\java\edu\owl\module" />
+      <recent name="H:\owlda.com\wol\src\main\webapp\img" />
+      <recent name="H:\owlda.com\wol\src\main\webapp\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\owlda.com\wol\src\main\resources" />
+      <recent name="H:\owlda.com\wol\src" />
+      <recent name="H:\owlda.com\wol\src\main\webapp" />
+      <recent name="H:\owlda.com\wol\src\main\webapp\WEB-INF" />
+      <recent name="H:\owlda.com\wol\src\main\webapp\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="owl [compiler:compile]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="1.8" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compiler:compile" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="owl [compiler:help]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="1.8" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compiler:help" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="owl [compiler:testCompile]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="1.8" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compiler:testCompile" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_wol" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4577" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.7">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="owl:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_wol_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4577" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="owl:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.owl [compiler:compile]" />
+      <item itemvalue="Maven.owl [compiler:testCompile]" />
+      <item itemvalue="Maven.owl [compiler:help]" />
+      <item itemvalue="Tomcat Server.tomcat" />
+    </list>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbb8a5df-bc5e-47d0-a8e0-ebef2eadef03" name="Default" comment="" />
+      <created>1532373809618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532373809618</updated>
+      <workItem from="1532373817921" duration="2405000" />
+      <workItem from="1532378036691" duration="1676000" />
+      <workItem from="1532409416621" duration="5176000" />
+      <workItem from="1532422215033" duration="89000" />
+      <workItem from="1532430882580" duration="1221000" />
+      <workItem from="1532548165280" duration="494000" />
+      <workItem from="1532548889436" duration="693000" />
+      <workItem from="1532550853135" duration="618000" />
+      <workItem from="1534447689182" duration="585000" />
+      <workItem from="1535951145760" duration="787000" />
+      <workItem from="1536156460504" duration="3159000" />
+      <workItem from="1536164391446" duration="2290000" />
+      <workItem from="1536675448386" duration="616000" />
+      <workItem from="1537106001854" duration="4769000" />
+      <workItem from="1537287296191" duration="3071000" />
+      <workItem from="1537291418885" duration="314000" />
+      <workItem from="1537891693912" duration="1438000" />
+      <workItem from="1537893686768" duration="2165000" />
+      <workItem from="1537896046350" duration="468000" />
+      <workItem from="1537941860046" duration="3813000" />
+      <workItem from="1537946230566" duration="2088000" />
+      <workItem from="1537949079525" duration="11539000" />
+      <workItem from="1537984089571" duration="508000" />
+      <workItem from="1537984895005" duration="4253000" />
+      <workItem from="1538072551326" duration="1842000" />
+      <workItem from="1538337519227" duration="1266000" />
+      <workItem from="1538390745066" duration="6100000" />
+      <workItem from="1538400768258" duration="5897000" />
+      <workItem from="1538471065161" duration="20386000" />
+      <workItem from="1538549811247" duration="11905000" />
+      <workItem from="1538582614875" duration="23300000" />
+      <workItem from="1538656662196" duration="21414000" />
+      <workItem from="1538697208928" duration="5326000" />
+      <workItem from="1549561888294" duration="619000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="152290000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82099825" visible="true" weight="0.18835099" />
+      <window_info id="Structure" order="1" sideWeight="0.17900172" side_tool="true" weight="0.24659607" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Persistence" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" weight="0.0048387097" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86913764" weight="0.09516129" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.13086233" side_tool="true" weight="0.062903225" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32903227" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49848714" weight="0.32903227" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32903227" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="CDI" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.002269289" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82099825" visible="true" weight="0.1762481" />
+      <window_info id="Structure" order="1" sideWeight="0.17900172" side_tool="true" weight="0.24659607" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Persistence" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49848714" weight="0.0048387097" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86913764" visible="true" weight="0.16774194" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.13086233" side_tool="true" weight="0.062903225" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32903227" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49848714" weight="0.32903227" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32903227" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="CDI" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.002269289" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/views/team.jsp</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/welcome-page.xhtml" />
+    <entry file="file://$PROJECT_DIR$/WEB-INF/weblogic.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="354" column="19" selection-start-line="354" selection-start-column="19" selection-end-line="354" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/wol/gplus/LoginServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/welcome-page.jsp" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wol.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/gplus/IdTokenVerifierAndParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/index.jap.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/team.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/grid.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-430">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/CONTACT.CSS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/controller/QuizController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/model/DoExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/model/Quiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/model/Note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/model/Pdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/quiz.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/gride-home-index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/gride-home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/errorLog.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="6" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/userHome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/gride-home.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/model/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/model/Exam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/subgrid.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/subgridhome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/model/Topic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/img/LOGO4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/interfaces/Handleable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/controller/DbManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4000">
+          <caret line="206" selection-start-line="206" selection-end-line="206" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/model/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/team.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/topic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/subject.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="119" selection-start-line="42" selection-start-column="119" selection-end-line="42" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/signUp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="168" column="28" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7055#7056#0" expanded="true" />
+            <element signature="e#7080#7081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/quiz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/owl/controller/hibernate/SessionBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>owl:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.75258917" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.75258917" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.75258917" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.75258917" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>owl</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.75258917" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-core:2.1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.75258917" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
